@@ -1,0 +1,11 @@
+<h1>Restaurants</h1>
+<ul class="restaurants">
+    <% data.restaurants.forEach((data)=>{ %>
+        <li class="restaurants-item">
+            <img src="<%= data.imageURL %>"clas="restaurants-item-image">
+            <div clas="restaurants-item-name"><%= data.name %></div>
+            <small clas="restaurants-item-type"><%= data.type %></small>
+        </li>
+        <% })  %>
+    
+</ul>
