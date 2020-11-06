@@ -19,8 +19,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 //route
-app.use('/api/products',productController);
-app.use('/products',productController);
+app.use('/api/products',TourController);
+app.use('/products',TourController);
 
 
 
