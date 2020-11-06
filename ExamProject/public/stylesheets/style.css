@@ -26,12 +26,13 @@ header{
   padding: 2rem;
   position: fixed;
   z-index: 100;
+  box-shadow: 0 0 15px #333;
 }
 
 .brand{
   font-weight: bold;
   font-size: 1.5rem;
-  color: rgb(11, 172, 212);
+  color: rgb(26, 26, 27);
 }
 
 main{
@@ -74,4 +75,5 @@ main{
 .restaurants-item-image{
   width: 100%;
   object-fit: cover;
+  box-shadow: 0 0 15px #333;
 }

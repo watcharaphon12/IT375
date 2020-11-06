@@ -1,0 +1,16 @@
+<h1>Products</h1>
+<ul class="restaurants">
+    <% data.products.forEach((data)=>{ %>
+        <li class="restaurants-item">
+            <img src="<%= data.imageURL %>"class="restaurants-item-image">
+            <div class="restaurants-item-name"><%= data.name %></div>
+            <div class="restaurants-item-name">แบรนด์ <%= data.brand %></div>
+            <div class="restaurants-item-name">ไซส์ <%= data.size %></div>
+            <div class="restaurants-item-name">วันที่ลงขาย <%= data.date %></div>
+            <div class="restaurants-item-name">ราคา <%= data.price %> บาท</div>
+            <div class="restaurants-item-name">สี <%= data.color %></div>
+            <small class="restaurants-item-type"></small>
+        </li>
+        <% })  %>
+    
+</ul>
